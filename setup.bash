@@ -37,12 +37,12 @@ echo "fi" >> ~/.zshrc
 ln -s ${full_path_to_directory}/.tmux.conf ~/.tmux.conf
 
 # Setup COVID-19 project environment
-echo "=========================="
-echo "Setting up COVID-19 project environment"
-echo "=========================="
-cd /home/tylergwlum/covid19_pocus_ultrasound/
-source covid_env/bin/activate
-cd pocovidnet
-echo "cd /home/tylergwlum/covid19_pocus_ultrasound/" >> ~/.zshrc
-echo "source covid_env/bin/activate" >> ~/.zshrc
-echo "cd pocovidnet" >> ~/.zshrc
+# echo "=========================="
+# echo "Setting up COVID-19 project environment"
+# echo "=========================="
+# cd /home/tylergwlum/covid19_pocus_ultrasound/
+# source covid_env/bin/activate
+# cd pocovidnet
+# echo "cd /home/tylergwlum/covid19_pocus_ultrasound/" >> ~/.zshrc
+# echo "source covid_env/bin/activate" >> ~/.zshrc
+# echo "cd pocovidnet" >> ~/.zshrc
