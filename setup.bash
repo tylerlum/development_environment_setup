@@ -20,6 +20,14 @@ chsh -s /usr/bin/zsh root
 apt install -y wget git  # If not already installed
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 
+# Setup zshrc
+echo "=========================="
+echo "Setting up zshrc"
+echo "=========================="
+apt-get install -y git  # If not already installed
+git clone https://github.com/tylerlum/zshrc.git ${full_path_to_directory}/zshrc
+ln -s ${full_path_to_directory}/zshrc/.zshrc ~/.zshrc
+
 # Setup vimrc
 echo "=========================="
 echo "Setting up vim"
