@@ -29,15 +29,15 @@ git clone https://github.com/tylerlum/vim_configuration.git ${full_path_to_direc
 ln -s ${full_path_to_directory}/vim_configuration/.vimrc ~/.vimrc
 
 # Setup tmux
-echo "=========================="
-echo "Setting up tmux"
-echo "=========================="
-apt-get install -y tmux  # If not already installed
-echo "if [ -z "$TMUX" ]" >> ~/.zshrc
-echo "then" >> ~/.zshrc
-echo "    tmux attach -t TMUX || tmux new -s TMUX$" >> ~/.zshrc
-echo "fi" >> ~/.zshrc
-ln -s ${full_path_to_directory}/.tmux.conf ~/.tmux.conf
+# echo "=========================="
+# echo "Setting up tmux"
+# echo "=========================="
+# apt-get install -y tmux  # If not already installed
+# echo "if [ -z "$TMUX" ]" >> ~/.zshrc
+# echo "then" >> ~/.zshrc
+# echo "    tmux attach -t TMUX || tmux new -s TMUX$" >> ~/.zshrc
+# echo "fi" >> ~/.zshrc
+# ln -s ${full_path_to_directory}/.tmux.conf ~/.tmux.conf
 
 # Setup COVID-19 project environment
 # echo "=========================="
